@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/module.js"],"names":["Controller"],"mappings":";;;;;;;;AAAQA,gB,eAAAA,U;;;2BAGNA,U","file":"module.js","sourcesContent":["import {Controller} from './controller';\r\n\r\nexport {\r\n  Controller as PanelCtrl\r\n};\r\n"]}

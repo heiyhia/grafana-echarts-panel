@@ -1,0 +1,31 @@
+<div class="editor-row">
+    <div class="editor-row">
+        <div class="section gf-form-group">
+            <div class="gf-form-inline">
+                <div class="gf-form">
+                    <label class="gf-form-label width-8">Chart Type</label>
+                    <div class="gf-form-select-wrapper max-width-15">
+                        <select class="gf-form-input width-8" ng-model="ctrl.panel.type" ng-options="type for type in ctrl.panel.ETYPE" ng-change="ctrl.onDataReceived()"></select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section gf-form-group" ng-show="ctrl.panel.type == 'map'">
+          <h5 class="section-heading">Map Data Options</h5>
+            <div class="gf-form">
+                <label class="gf-form-label width-12">ES Metric Field</label>
+                <input type="text" class="input-small gf-form-input width-10" ng-model="ctrl.panel.esMetric" ng-change="ctrl.refresh()" ng-model-onblur />
+            </div>
+            <div class="gf-form">
+                <label class="gf-form-label width-12">ES Location Name Field</label>
+                <input type="text" class="input-small gf-form-input width-10" ng-model="ctrl.panel.esLocationName" ng-change="ctrl.refresh()" ng-model-onblur />
+            </div>
+            <div class="gf-form">
+                <label class="gf-form-label width-12">ES geo_point Field</label>
+                <input type="text" class="input-small gf-form-input width-10" ng-model="ctrl.panel.esGeoPoint" ng-change="ctrl.refresh()" ng-model-onblur />
+            </div>
+        </div>
+    </div>
+
+    <textarea class="gf-form-input" ng-model="ctrl.panel.EchartsOption" rows="20" style="width:100%" ng-change="ctrl.onDataReceived()" ng-model-onblur></textarea>
+</div>

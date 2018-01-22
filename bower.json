@@ -1,0 +1,12 @@
+{
+  "name": "grafana-echarts-panel",
+  "description": "Echarts Panel for Grafana",
+  "main": "src/main.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+  }
+}

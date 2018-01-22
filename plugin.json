@@ -1,0 +1,16 @@
+{
+  "type": "panel",
+  "name": "Echarts",
+  "id": "grafana-echarts-panel",
+
+  "info": {
+    "description": "Echarts Panel for Grafana",
+    "keywords": ["echarts", "plugin", "panel"],
+    "version": "0.0.1"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "4.1.x",
+    "plugins": [ ]
+  }
+}

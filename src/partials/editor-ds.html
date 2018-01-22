@@ -1,0 +1,31 @@
+<div class="editor-row">
+    <div class="section gf-form-group">
+        <div class="gf-form-inline">
+            <div class="gf-form">
+                <gf-form-switch class="gf-form" label-class="width-11" switch-class="max-width-6" label="Use Customize Data" checked="ctrl.panel.IS_UCD" on-change="ctrl.onDataReceived()"></gf-form-switch>
+            </div>
+        </div>
+
+        <div class="gf-form-inline" ng-if="ctrl.panel.IS_UCD">
+            <div class="gf-form">
+                <label class="gf-form-label width-8">URL</label>
+                <input type="text" class="input-small gf-form-input width-30" ng-model="ctrl.panel.url" />
+            </div>
+        </div>
+        <div class="gf-form-inline" ng-if="ctrl.panel.IS_UCD">
+            <div class="gf-form">
+                <label class="gf-form-label width-8">Method</label>
+                <div class="gf-form-select-wrapper max-width-15">
+                    <select class="gf-form-input width-8" ng-model="ctrl.panel.method" ng-options="m for m in ctrl.panel.METHODS" ng-change="ctrl.onDataReceived()"></select>
+                </div>
+            </div>
+        </div>
+        <div class="gf-form-inline" ng-if="ctrl.panel.IS_UCD">
+            <div class="gf-form">
+                <label class="gf-form-label width-8">Interval</label>
+                <input type="number" class="input-small gf-form-input width-5" ng-model="ctrl.panel.upInterval" placeholder="60000" />
+                <label class="gf-form-label width-3">ms</label>
+            </div>
+        </div>
+    </div>
+</div>
