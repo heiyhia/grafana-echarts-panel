@@ -62,7 +62,7 @@ option = {
 };
 ```
 **效果图**
-![ ](./src/imgs/metrics.png)
+![ ](./src/imgs/chinamap.png)
 
 
 ## 自定义数据源
