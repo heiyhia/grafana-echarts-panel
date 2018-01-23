@@ -8,13 +8,13 @@ Echarts v4.0.x
 
 ## 中国地图
 **ES数据源**
-![Chinamap es](./src/imgs/chinamap-es.png)
+![ ](./src/imgs/chinamap-es.png)
 
 **Metrics**
-![Chinamap metrics](./src/imgs/metrics.png)
+![ ](./src/imgs/metrics.png)
 
 **Echarts option**
-![Chinamap config](./src/imgs/map_option.png)
+![ ](./src/imgs/map_option.png)
 ```javascript
 option = {
 	title : {
@@ -67,14 +67,14 @@ option = {
 
 ## 自定义数据源
 **配置数据源**
-![Customize Data](./src/imgs/cdata.png)
+![ ](./src/imgs/cdata.png)
 示例中URL返回数据格式如下
 ```javascript
 {"y": ["10", "100", "20", "12", "150"], "x": ["2018-01-01", "2018-01-02", "2018-01-03", "2018-01-04", "2018-01-05"]}
 ```
 
 **配置Echarts**
-![Echarts option](./src/imgs/line_option.png)
+![ ](./src/imgs/line_option.png)
 
 **效果图**
 ![ ](./src/imgs/cdata_ret.png)
