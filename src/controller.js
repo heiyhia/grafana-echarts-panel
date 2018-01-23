@@ -49,7 +49,7 @@ export class Controller extends MetricsPanelCtrl {
             this.dataFormatter.setGeohashValues(dataList, data);
             this.data = this.dataFormatter.aggByProvince(data);
         }
-        console.dir(this.data);
+
         this.refreshed = true;
         this.render();
         this.refreshed = false;
