@@ -102,7 +102,6 @@ System.register(['app/plugins/sdk', 'lodash', 'app/core/utils/kbn', './libs/echa
                 _createClass(Controller, [{
                     key: 'onDataReceived',
                     value: function onDataReceived(dataList) {
-                        console.log(this.panel.IS_UCD);
                         this.data = this.panel.IS_UCD ? this.customizeData : dataList;
 
                         if (this.panel.type == 'map') {
@@ -110,7 +109,7 @@ System.register(['app/plugins/sdk', 'lodash', 'app/core/utils/kbn', './libs/echa
                             this.dataFormatter.setGeohashValues(dataList, data);
                             this.data = this.dataFormatter.aggByProvince(data);
                         }
-                        console.dir(this.data);
+
                         this.refreshed = true;
                         this.render();
                         this.refreshed = false;
