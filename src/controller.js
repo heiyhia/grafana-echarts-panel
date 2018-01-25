@@ -6,6 +6,8 @@ import echarts from './libs/echarts.min';
 import './libs/dark';
 import './style.css!';
 import './libs/china.js';
+import './libs/bmap.js';
+import './libs/getBmap.js';
 
 import DataFormatter from './data_formatter';
 
