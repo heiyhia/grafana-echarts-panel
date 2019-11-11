@@ -84,7 +84,7 @@ option = {
 
 
 ## 插件开发
-- git clone https://github.com/heruihong/grafana-echarts-panel
+- git clone https://github.com/soWill666/grafana-echarts-panel
 - npm install 
 - grunt
 
