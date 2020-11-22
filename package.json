@@ -31,7 +31,7 @@
     "grunt-package-modules": "^0.1.3",
     "grunt-systemjs-builder": "^0.2.5",
     "load-grunt-tasks": "~3.2.0",
-    "lodash": "^4.17.2"
+    "lodash": "^4.17.19"
   },
   "dependencies": {
     "echarts": "^3.6.1",
