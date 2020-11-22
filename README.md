@@ -4,8 +4,6 @@ Grafana集成Echarts
 Grafana v4.1.x 
 Echarts v4.0.x
 
-自定义数据源部分的代码出自这位大神 https://github.com/Billiballa/dxc-echarts-panel
-
 ## 中国地图
 **ES数据源**
 ![ ](./src/imgs/chinamap-es.png)
